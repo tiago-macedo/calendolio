@@ -26,8 +26,6 @@ function calculate() {
     const diff = (new Date()) - start;
     let current_day = Math.floor(diff / miliseconds_in_day);
 
-    current_day = 92
-
     // Super Oliday
     if (current_day === 122) {
         txt1.innerText = "🎉 It's Super Oliday! 🎉";
