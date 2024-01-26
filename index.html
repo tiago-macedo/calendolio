@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <title>Calendólio</title>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <style>
+        main {text-align: center;}
+        body {grid-template-columns: 1fr min(50rem,900%) 1fr};
+    </style>
+    <script type="text/javascript" src="./calculate.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <h2><p id="day"></p></h2>
+        <h2><p id="extra"></p></h2>
+        <h2><p id="time"></p></h2>
+    </main>
+
+    <div style="height: 50px;"></div>
+
+    <article>
+        <ul style="list-style-type: none">
+        <li>🌟 1 ano = 4 trimestres + 1 dia (Super Oliday) + 6 horas (Hora Extra de Ano Novo)</li>
+        <li>🗓️ 1 trimestre = 3 meses + 1 dia (Oliday)</li>
+        <li>📅 1 mês = 3 semanas</li>
+        <li>⏰ 1 semana = 10 dias</li>
+        </ul>
+    </article>
+
+    <footer>
+        Criado por <a href="https://github.com/tiago-macedo">Tiago Macedo</a>,
+        baseado em um calendário que não é de minha criação.
+    </footer>
+</body>
+</html>
